@@ -1,0 +1,72 @@
+seed: 42
+data:
+  raw_dir: data/raw
+  file_pattern: 2023-04-*.csv
+  prepared_dir: data/processed
+  date_start: '2023-04-01'
+  date_end: '2023-04-14'
+  columns:
+    user: ID
+    longitude: lng
+    latitude: lat
+    timestamp: time
+    time_id: tid
+  min_points: 4
+  max_points: null
+  max_history_days: null
+  min_history_days: 1
+  split_ratios:
+  - 0.6
+  - 0.2
+  - 0.2
+  split_seed: 42
+  retention_rate: 0.4
+  mask_seed: 42
+  keep_endpoints: true
+  resample_train_mask: false
+  stay_time_minutes: 90
+  stay_radius_m: 100
+  time_id_seconds: 30.0
+  timestamp_source: auto
+  holiday_calendar_path: null
+model:
+  encoder_hidden_size: 128
+  decoder_hidden_size: 256
+  num_layers: 1
+  dropout: 0.5
+  semantic_embedding_dim: 30
+  environment_embedding_dim: 30
+  coord_head_dim: 256
+  query_time_conditioning: false
+  use_history: true
+  use_context_adaptor: true
+  use_mobility: true
+  use_environment: true
+  use_local_attention: true
+training:
+  epochs: 30
+  batch_size: 256
+  learning_rate: 0.001
+  weight_decay: 0.0
+  lambda_semantic: 10.0
+  teacher_forcing_start: 0.8
+  teacher_forcing_end: 0.3
+  gradient_clip: 5.0
+  early_stopping_patience: 0
+  device: auto
+  num_workers: 0
+  cpu_threads: 4
+  deterministic: true
+  run_dir: runs/bamtr_40
+  max_train_batches: null
+  max_eval_batches: null
+evaluation:
+  distance_metric: local_euclidean
+  recall_thresholds_m:
+  - 50
+  - 100
+  - 300
+  - 500
+  - 1000
+  - 2000
+  semantic_threshold: 0.5
