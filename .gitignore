@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+.DS_Store
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+.env
+data/
+runs/
+*.pt
+*.pth
+*.npz
+*.log
+local*.yaml
+# Only generated, explicitly synthetic example CSVs are distributed.
+!examples/synthetic/*.csv

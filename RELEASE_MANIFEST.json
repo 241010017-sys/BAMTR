@@ -1,0 +1,317 @@
+{
+  "archive_root": "BAMTR",
+  "files": [
+    {
+      "path": ".github/workflows/tests.yml",
+      "sha256": "637826860ee7e1087f9217c1e908914fdf57e73b045b3943304cb1c45855c9ca",
+      "bytes": 770
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "d3653d1ff221d6f779704dc304e5d4419bcf230f2b8b98b798001dbfc47ba42b",
+      "bytes": 272
+    },
+    {
+      "path": "configs/bamtr_20.yaml",
+      "sha256": "804594c09e12f0185f09ca086ac4abdf3ab82bb23ea05c53533d20ab997713c8",
+      "bytes": 1506
+    },
+    {
+      "path": "configs/bamtr_40.yaml",
+      "sha256": "db444af4e867bcb286c860815d163941ae11651fff50bf940ecbe42c291bda10",
+      "bytes": 1506
+    },
+    {
+      "path": "configs/bamtr_40_h256.yaml",
+      "sha256": "2b16f63ebb9d03557fc103d20d3ed880687da05c5c83aed78231d9e82ef76efb",
+      "bytes": 1515
+    },
+    {
+      "path": "configs/bamtr_60.yaml",
+      "sha256": "4fd08955b5f115a0d590a2ba54e23139cdd3dcd7c2aba38231e98d90f7b0a321",
+      "bytes": 1507
+    },
+    {
+      "path": "configs/real_data_smoke.yaml",
+      "sha256": "1345d90ec5f636ae2dee66647ac19f109d7567a01d54647dce5ac069b07b0476",
+      "bytes": 1505
+    },
+    {
+      "path": "configs/smoke.yaml",
+      "sha256": "e41e2c4832fa78c7c449663d885c70339bc20dd964d2de1c2c92323f2aba1d06",
+      "bytes": 1505
+    },
+    {
+      "path": "docs/architecture.md",
+      "sha256": "0d8094d4b95c0eb779c8cc4ee567f796a2db47dabcf5c7decbbb20e138108868",
+      "bytes": 7661
+    },
+    {
+      "path": "docs/data_protocol.md",
+      "sha256": "f0533b487a4199c0d19b3fbf773daf611c44f2e44dafc01be801834a49b636c9",
+      "bytes": 14030
+    },
+    {
+      "path": "docs/github_release.md",
+      "sha256": "6f504c6ee5a2d4a3508e8ae25bfd391d5ac2540cfec6a01fb399ef952e5c7a84",
+      "bytes": 2809
+    },
+    {
+      "path": "docs/local_data.md",
+      "sha256": "1110ec85d1e330494a7055ffbcfdc09c7a28ab6af6d9cc413aee5a1745b1d7c9",
+      "bytes": 3806
+    },
+    {
+      "path": "docs/reproducibility.md",
+      "sha256": "a269b6e3e9df11afd54f8b342b089e7feac963d0c4c7bd5e8bc3171328df3246",
+      "bytes": 10434
+    },
+    {
+      "path": "docs/validation_report.md",
+      "sha256": "cba0611aee56d1f839aeb5b0aca16f531b49967bbe06e77e3104361bc1f3efb4",
+      "bytes": 5140
+    },
+    {
+      "path": "environment.yml",
+      "sha256": "da07e7ef90aefccb8c2861035aa52475a9e3e8ae6605779ae8148c8409449a49",
+      "bytes": 313
+    },
+    {
+      "path": "examples/inference/observations.csv",
+      "sha256": "0a80ca06ea128c58931f21dccce8712e572f6b4b80d367fedc2f1a008b2e2081",
+      "bytes": 1124
+    },
+    {
+      "path": "examples/inference/queries.csv",
+      "sha256": "53d24caa71f45f02ce2079c5cec92c7ca7e15e4786957c855be94eccc3dec503",
+      "bytes": 1250
+    },
+    {
+      "path": "examples/README.md",
+      "sha256": "b34c3b63ffecb7752674a2fb0f40e0080c7e59d67b604eccfcba4ef76f030bb3",
+      "bytes": 714
+    },
+    {
+      "path": "examples/synthetic/2023-04-01.csv",
+      "sha256": "dc1033b746c7661a98b905fb8ea9c83f7106dbd94e5b5d9de705005e95421ae1",
+      "bytes": 62267
+    },
+    {
+      "path": "examples/synthetic/2023-04-02.csv",
+      "sha256": "b9903186e57575b5694fecb03d6fe24fa4071721f087fc226d8d3b453e2716fe",
+      "bytes": 62294
+    },
+    {
+      "path": "examples/synthetic/2023-04-03.csv",
+      "sha256": "7ac5e3fa10823b34749ea3a40b01907ce6b604ea20596793631f0a0464890176",
+      "bytes": 62273
+    },
+    {
+      "path": "examples/synthetic/2023-04-04.csv",
+      "sha256": "97a6b8454b595eee4d11e3f2581e08d97c4033b16a6e2ed2ac40b3b9ccced859",
+      "bytes": 62274
+    },
+    {
+      "path": "examples/synthetic/2023-04-05.csv",
+      "sha256": "a6935bc64e736d634ea24dd9b4ed1bbbb5072d6782243e5291ddca1c0a65694f",
+      "bytes": 62277
+    },
+    {
+      "path": "examples/synthetic/2023-04-06.csv",
+      "sha256": "332f815c3bf430c10f05d4250148b1ade0172edf5800ccc47e7bc9d29fd7c0e9",
+      "bytes": 62293
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "d0efef9726984718c5bd5b5688989177ae435e7079e262c35f01217f20074d86",
+      "bytes": 1075
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "46efd4b8d161abb8b5bff920983a63e9e0f77d60a9467e3377554a1ae652cf2d",
+      "bytes": 667
+    },
+    {
+      "path": "README.md",
+      "sha256": "0c1df9866ff2be1fc1ccf7d2c2df551d8b86aa77d0690f787136ecefe63b57f4",
+      "bytes": 5466
+    },
+    {
+      "path": "requirements-dev.txt",
+      "sha256": "b2cf40cfde63ffcd654d233d12aebeb06ea2092d1cbd22aa25c34efacfcfd804",
+      "bytes": 33
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "dbc7bd3e723831c4df3d62b8241ee879797c77fa979c903ed4caed42f72d9624",
+      "bytes": 157
+    },
+    {
+      "path": "scripts/generate_synthetic.py",
+      "sha256": "a90022e5591a0976664a8f7ffe1c78d4cb8a0a073c9e1e90a4ff675904da4171",
+      "bytes": 3280
+    },
+    {
+      "path": "src/bamtr/__init__.py",
+      "sha256": "fbfaa821e2e29a663a9e8f7d6549f618b9e7c26b220970e1a7767fb08f77d8d3",
+      "bytes": 85
+    },
+    {
+      "path": "src/bamtr/__main__.py",
+      "sha256": "3129adff95e0f38b87ab34cddfc27082c7892bcaec267ff5d40f160fdf55b44a",
+      "bytes": 61
+    },
+    {
+      "path": "src/bamtr/calendar.py",
+      "sha256": "68e0b026e68d6f048cd2fc3751f67cdf21521423d7226d1cbf709196b8e5281d",
+      "bytes": 2937
+    },
+    {
+      "path": "src/bamtr/cli.py",
+      "sha256": "497010f3660443753220c7587539ccfa0b7da8073d806a548c801c1262b0152f",
+      "bytes": 8519
+    },
+    {
+      "path": "src/bamtr/config.py",
+      "sha256": "d7885770c60712e32b29949292e311d878f5c88781a16d18c594967c9b8eb4a1",
+      "bytes": 5322
+    },
+    {
+      "path": "src/bamtr/data.py",
+      "sha256": "ae79c5ab2961a6d0a5dd97ac508a9834d4f227230eb41db0d57a068f424a1230",
+      "bytes": 31251
+    },
+    {
+      "path": "src/bamtr/engine.py",
+      "sha256": "a7024837fa24b7ea37b995795851a825c77b652fd808fb3df719f2547947b595",
+      "bytes": 15943
+    },
+    {
+      "path": "src/bamtr/inference.py",
+      "sha256": "7750bdb31e0838c2dd3963e1cc971efef2c07bb01379a1b7872e867e36119405",
+      "bytes": 5813
+    },
+    {
+      "path": "src/bamtr/metrics.py",
+      "sha256": "df19078d977b7a33615f0d08d58f984d3f509f520c42288291ada8886ae9dd39",
+      "bytes": 5055
+    },
+    {
+      "path": "src/bamtr/model.py",
+      "sha256": "e0c7f4ea0113be891d3ad2b141831d249f6bdfa75d354d656829485a0f524e6e",
+      "bytes": 14226
+    },
+    {
+      "path": "src/bamtr/plotting.py",
+      "sha256": "fd6c2b4e9f3aaf19c8d8d15f4d66576053f65babd76847c45ef6c9967fe5c1c1",
+      "bytes": 2454
+    },
+    {
+      "path": "src/bamtr/utils.py",
+      "sha256": "bad546f7e220faed9114b6d5ce5c8f17a10e394b58cc8e7a9360dd9b8bd3107c",
+      "bytes": 3691
+    },
+    {
+      "path": "tests/test_data.py",
+      "sha256": "bc3827c6ace9da285e4ef4843e2e31fd6052a305f906ff45a5f6f16a12873032",
+      "bytes": 11885
+    },
+    {
+      "path": "tests/test_inference.py",
+      "sha256": "bff439fa58eac2d32f960b8a7ce02d26972ebf413482300d5080b32260a22e26",
+      "bytes": 7542
+    },
+    {
+      "path": "tests/test_integration.py",
+      "sha256": "21eed7f9cb949580a68a4864b4e99349b675b08dd38b07ce2234af632a736dcf",
+      "bytes": 9479
+    },
+    {
+      "path": "tests/test_metrics.py",
+      "sha256": "75fc51b01ce5b89aa8521c991fa4855a1a1f016993ccbd396259d898e2f92ef5",
+      "bytes": 2605
+    },
+    {
+      "path": "tests/test_model.py",
+      "sha256": "49b4672418507fa8f8430776ce227f802ed03c48fb129af102cd1b3e24a7ac4c",
+      "bytes": 8388
+    },
+    {
+      "path": "data/raw/2023-04-01.csv",
+      "bytes": 2750336,
+      "sha256": "1688187a3e38770486090ccdb66d5c6ec9c8ac0dc55f5a2ff00095a85106dd39"
+    },
+    {
+      "path": "data/raw/2023-04-02.csv",
+      "bytes": 2884763,
+      "sha256": "ed9d83330fcdebf268050ff5cd471c830b108494ff6ac5a7cf46940f92a245ef"
+    },
+    {
+      "path": "data/raw/2023-04-03.csv",
+      "bytes": 2980767,
+      "sha256": "b2c40bbf1c069bc6173718bc51a30eca507815c4dd47af63baaa4a79c2f6897a"
+    },
+    {
+      "path": "data/raw/2023-04-04.csv",
+      "bytes": 2959344,
+      "sha256": "9ba1d00c6554fca5c4a0643a734d62a157552553328d3cd19334c3dba68e549b"
+    },
+    {
+      "path": "data/raw/2023-04-05.csv",
+      "bytes": 2675833,
+      "sha256": "93fc2e37c9e59900c75fa43fb2a3e2f4d7b2a649cf604a52667994fdd138660d"
+    },
+    {
+      "path": "data/raw/2023-04-06.csv",
+      "bytes": 2780938,
+      "sha256": "85d4e13a98ad58a2dc82e535420d3cb47a2f1905e850890d312515e428bf127f"
+    },
+    {
+      "path": "data/raw/2023-04-07.csv",
+      "bytes": 2877396,
+      "sha256": "b594436e045103a117929b5bc82a16c74dc54fbb3ea800762c7cf5dda3a7d437"
+    },
+    {
+      "path": "data/raw/2023-04-08.csv",
+      "bytes": 2866883,
+      "sha256": "b732f86c7d669cce4bc962fee8142fef33d1721be2f71971981d768c8a790732"
+    },
+    {
+      "path": "data/raw/2023-04-09.csv",
+      "bytes": 2846305,
+      "sha256": "f4e61611905911dc44816486eb0a7580287e0e1541e638269da013b6c8a26ad7"
+    },
+    {
+      "path": "data/raw/2023-04-10.csv",
+      "bytes": 2874508,
+      "sha256": "67ed3adc80a8fa42bab7bd55e027cc6e01969537054a9b559db8f552399e58ab"
+    },
+    {
+      "path": "data/raw/2023-04-11.csv",
+      "bytes": 2899163,
+      "sha256": "6b1183385e9b3154250bfc6034e1fb82e0741ab6c45ec8daf337c96d7a5598a5"
+    },
+    {
+      "path": "data/raw/2023-04-12.csv",
+      "bytes": 2880737,
+      "sha256": "8745921866bd8c96c39aa7c766e2398440555359b798ff751efe72156142648b"
+    },
+    {
+      "path": "data/raw/2023-04-13.csv",
+      "bytes": 2903778,
+      "sha256": "62dfef77a5f262a74fdd4ba7f657544eabded66a0cba22c6d746f30628b2e80c"
+    },
+    {
+      "path": "data/raw/2023-04-14.csv",
+      "bytes": 2976411,
+      "sha256": "f9ff55361059535af2e894cfcc8c05c92dc0da897f96f389780a1255547c106f"
+    },
+    {
+      "path": "data/raw/SHA256SUMS.txt",
+      "bytes": 1148,
+      "sha256": "77013f74f9938da1b375a6c06fb64d05da91cf00aa12ed2c6767911db9a0e225"
+    }
+  ],
+  "bundle_type": "local_with_supplied_private_data",
+  "data_note": "The data/raw CSVs are unchanged copies supplied by the user for local use. They are excluded by .gitignore and are not licensed under the code MIT license. This archive is not the code-only GitHub release. No trained checkpoints or prepared datasets are included."
+}
